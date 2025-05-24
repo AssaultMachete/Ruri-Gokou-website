@@ -1,0 +1,96 @@
+/* Fonts for the website */
+
+@font-face {
+  font-family: "Eitai";
+  src: url(fonts/KOT-永代ゴシック-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Opensans Regular";
+  src: url(fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Opensans Semibold";
+  src: url(fonts/OpenSans-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "Roboto Regular";
+  src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Roboto Semibold";
+  src: url(fonts/Roboto-Regular.ttf);
+}
+
+/* Main Cascading */
+
+* {
+  margin: 0;
+  padding: 0;
+  scrollbar-color: #5f5a70 #202028;
+  scrollbar-width: thin;
+}
+
+main {
+  background-color: black;
+  color: aliceblue;
+  width: 50vw;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 2;
+}
+
+body {
+  background-image: url(src/bg-img.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1,
+h2 {
+  font-family: "Eitai", sans-serif;
+}
+
+p {
+  font-family: "Opensans Regular", "Roboto Regular", sans-serif;
+  line-height: normal;
+}
+
+img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+h1 {
+  color: #a094c9;
+}
+
+h2 {
+  color: rgb(117, 110, 161);
+}
+
+.main-heading {
+  margin-bottom: 15px;
+}
+
+.appearance {
+  margin-bottom: 15px;
+}
+
+.personality {
+  margin-bottom: 15px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer img {
+  width: 128px;
+  height: 128px;
+  border-radius: 100%;
+}
