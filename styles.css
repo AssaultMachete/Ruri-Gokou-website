@@ -94,3 +94,18 @@ footer img {
   height: 128px;
   border-radius: 100%;
 }
+
+/* Dimensions Manipulating for Media screens */
+
+@media screen and (max-width: 450px) {
+  main {
+    width: auto;
+  }
+  h1 {
+    font-size: 26px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+}
